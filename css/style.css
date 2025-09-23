@@ -1,3 +1,40 @@
+:root {
+  --bg-light: #EEEEEE;
+  --bg-dark: #111111;
+  --text-light: #222222;
+  --text-dark: #DDDDDD;
+  --bg-root-light: #DDDDDD;
+  --bg-root-dark: #222222;
+  background-color: var(--bg-root-dark);
+  transition: background-color 0.3s;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+  padding: 2% 2%;
+  margin: 2% 2%;
+}
+
+a:visited {
+  color: rgb(86, 86, 155);
+}
+a:link {
+  color: blueviolet;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+  }
+  :root {
+    background-color: var(--bg-root-light);
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -10,4 +47,31 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+body:has(> input#toggle-theme:checked) {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+:root:has(input#toggle-theme:checked) {
+  background-color: var(--bg-root-light);
+}
+
+input#toggle-theme {
+  opacity: 0;
+  display: none;
+}
+label[for="toggle-theme"] {
+  background-color: var(--bg-root-dark);
+  border-radius: 20%;
+  border: 2px solid;
+  padding: 5px;
+  transition: background-color 0.3s;
+  transition: border-color 0.3s;
+}
+label[for="toggle-theme"]:hover {
+  opacity: 0.9;
+}
+input#toggle-theme:checked ~ label[for="toggle-theme"] {
+  background-color: var(--bg-root-light);
 }
