@@ -59,7 +59,7 @@ body:has(> input#toggle-theme:checked) {
 
 input#toggle-theme {
   opacity: 0;
-  display: none;
+  position: absolute;
 }
 label[for="toggle-theme"] {
   background-color: var(--bg-root-dark);
