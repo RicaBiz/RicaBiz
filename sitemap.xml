@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://ricabiz.wasmer.app/</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/index.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/projects.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/projects/html-template-parser.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/music.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/cooking.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/phylosophy.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/about-us.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ricabiz.wasmer.app/phylosophy-articles/why-worse-looks-better.html</loc>
+  <lastmod>2025-10-11T19:55:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
